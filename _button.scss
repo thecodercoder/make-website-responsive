@@ -1,0 +1,30 @@
+//
+//
+
+button {
+  padding: 12px 28px;
+  border: none;
+  background: var(--color-teal);
+  color: var(--color-bg-dk);
+  border-radius: 20px;
+  transition: background 100ms ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background: var(--color-teal-lt);
+  }
+
+  &.secondary {
+    background: var(--color-purple);
+    color: #fff;
+    margin-inline-start: 0.5rem;
+
+    &:hover {
+      background: var(--color-purple-lt);
+    }
+  }
+
+  &.small {
+    padding: 6px 18px;
+  }
+}
